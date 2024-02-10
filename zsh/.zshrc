@@ -127,19 +127,15 @@ alias vk="v ~/.config/kitty/kitty.conf"
 alias tx="tmuxinator"
 alias rs="sa migrate:fresh --seed  && s composer install && sa optimize:clear && sa queue:clear"
 
-. "$HOME/.asdf/asdf.sh"
-
 bindkey '^ ' autosuggest-accept
-
 
 # Herd injected PHP binary.
 export PATH="/Users/albuquerque53/Library/Application Support/Herd/bin/":$PATH
 
-
 # Herd injected PHP 8.2 configuration.
 export HERD_PHP_82_INI_SCAN_DIR="/Users/albuquerque53/Library/Application Support/Herd/config/php/82/"
 
+pfetch
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-
-pfetch

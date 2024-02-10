@@ -24,3 +24,5 @@ brew install stow
 ```bash
 git clone https://github.com/albuquerque53/dotfiles .dotfiles && cd .dotfiles && stow .
 ```
+
+3. Update `~/.gitconfig` with your actual data.

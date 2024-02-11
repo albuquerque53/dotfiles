@@ -15,7 +15,7 @@ export BLACK=0xf0000000
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 # teal
-export BAR_COLOR=0x0f001f31
+export BAR_COLOR=0x2f001f31
 export ITEM_BG_COLOR=0xff003547
 export ACCENT_COLOR=0xff2cf9ed
 

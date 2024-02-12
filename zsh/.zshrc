@@ -72,6 +72,7 @@ alias rs="sa migrate:fresh --seed  && s composer install && sa optimize:clear &&
 alias vv="cd ~/.config/nvim && v init.lua"
 alias vz="v ~/.zshrc"
 alias vt="v ~/.tmux.conf"
+alias va="v ~/.dotfiles/amethyst/.config/amethyst/amethyst.yml"
 
 # paths
 alias dv="cd ~/Development"

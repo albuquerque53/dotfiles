@@ -3,13 +3,7 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # INITIAL IMPORTS
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-# loading defined colors
-source "$CONFIG_DIR/colors.sh"
-
-# plugins
-PLUGIN_DIR="$CONFIG_DIR/plugins"
-ITEM_DIR="$CONFIG_DIR/items"
+source "$CONFIG_DIR/variables.sh"
 
 
 # -/-

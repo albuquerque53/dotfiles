@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # listen to front_app_switched event and set current app on bar
 if [ "$SENDER" = "front_app_switched" ]; then

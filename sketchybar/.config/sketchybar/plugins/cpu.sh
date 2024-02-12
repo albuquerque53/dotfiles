@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # loads all defined colors
-source "$CONFIG_DIR/colors.sh"
+source "$CONFIG_DIR/variables.sh"
 
 # percentage build
 CORE_COUNT=$(sysctl -n machdep.cpu.thread_count)

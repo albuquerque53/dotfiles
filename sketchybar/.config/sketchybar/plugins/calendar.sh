@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # loads all defined colors
-source "$CONFIG_DIR/colors.sh"
+source "$CONFIG_DIR/variables.sh"
 
 # adding it to sketchybar
 sketchybar --set $NAME \

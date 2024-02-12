@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 # loads all defined colors
-source "$CONFIG_DIR/colors.sh"
+source "$CONFIG_DIR/variables.sh"
 
 # percentage build
 if [ "$SENDER" = "volume_change" ]; then

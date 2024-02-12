@@ -35,11 +35,11 @@ plugins=(
 	zsh-autosuggestions
 )
 
-# to accept suggestions with ctrl + <space>
-bindkey '^ ' autosuggest-accept
-
 # loading omz
 source $ZSH/oh-my-zsh.sh
+
+# to accept suggestions with ctrl + <space>
+bindkey '^ ' autosuggest-accept
 
 
 # -/-

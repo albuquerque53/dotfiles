@@ -3,7 +3,7 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # COLORSCHEME
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-source "$CONFIG_DIR/themes/catppuccin/mocha.sh"
+source "$CONFIG_DIR/themes/catppuccin/latte.sh"
 
 
 # -/-

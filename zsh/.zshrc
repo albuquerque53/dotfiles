@@ -59,6 +59,7 @@ alias in="brew install"
 # personal dev workflow
 alias v="nvim"
 alias s="vendor/bin/sail"
+alias ds="docker stop $(docker ps -q)"
 alias sl="vendor/bin/sail up"
 alias slu="vendor/bin/sail up -d"
 alias sld="vendor/bin/sail down"
@@ -66,7 +67,7 @@ alias slr="vendor/bin/sail restart"
 alias stf="vendor/bin/sail test --filter"
 alias puf="vendor/bin/phpunit --filter"
 alias sa="vendor/bin/sail artisan"
-alias rs="sa migrate:fresh --seed  && s composer install && sa optimize:clear && sa queue:clear"
+alias rs="s composer install && sa migrate:fresh --seed && sa optimize:clear && sa queue:clear"
 
 # configuration files
 alias vv="cd ~/.config/nvim && v init.lua"

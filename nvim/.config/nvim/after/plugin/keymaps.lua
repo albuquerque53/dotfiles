@@ -1,7 +1,7 @@
 vim.api.nvim_set_keymap("n", "<Space>", "", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Space>fcs", ":vsplit ~/.config/nvim/init.vim<cr>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Space>fce", ":edit ~/.config/nvim/init.vim<cr>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Space>fcl", ":source ~/.config/nvim/init.vim<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Space>fcs", ":vsplit ~/.config/nvim/init.lua<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Space>fce", ":edit ~/.config/nvim/init.lua<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Space>fcl", ":source ~/.config/nvim/init.lua<cr>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Space>ho", ":nohlsearch<cr>", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "<Space>fe", ":CocCommand explorer<Enter>", { noremap = true, silent = true })

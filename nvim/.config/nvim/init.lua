@@ -27,6 +27,8 @@ Plug('m4xshen/autoclose.nvim')
 
 Plug('startup-nvim/startup.nvim')
 
+Plug('lewis6991/gitsigns.nvim')
+
 vim.call('plug#end')
 
 -- Editor

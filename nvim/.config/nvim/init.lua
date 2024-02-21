@@ -19,6 +19,7 @@ Plug('jwalton512/vim-blade')
 Plug('nvim-lua/plenary.nvim')
 Plug('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
 Plug('nvim-telescope/telescope-file-browser.nvim')
+Plug('nvim-treesitter/nvim-treesitter')
 
 Plug('nvim-tree/nvim-web-devicons')
 Plug('akinsho/bufferline.nvim', { tag = '*' })

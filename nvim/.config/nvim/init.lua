@@ -25,6 +25,8 @@ Plug('akinsho/bufferline.nvim', { tag = '*' })
 Plug('nvim-lualine/lualine.nvim')
 Plug('m4xshen/autoclose.nvim')
 
+Plug('startup-nvim/startup.nvim')
+
 vim.call('plug#end')
 
 -- Editor

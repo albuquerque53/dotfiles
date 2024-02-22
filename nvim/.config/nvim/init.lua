@@ -30,6 +30,7 @@ Plug('startup-nvim/startup.nvim')
 
 Plug('lewis6991/gitsigns.nvim')
 Plug('koenverburg/peepsight.nvim')
+Plug('ggandor/leap.nvim')
 
 vim.call('plug#end')
 

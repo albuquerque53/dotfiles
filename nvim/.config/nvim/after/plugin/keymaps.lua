@@ -12,5 +12,5 @@ vim.api.nvim_set_keymap("n", "<Space>fh", ":Telescope help_tags<cr>", { noremap 
 vim.api.nvim_set_keymap("n", "<Space>cl", ":bd<cr>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Space>ca", ":bufdo bd<cr>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Space>pps", ":Peepsight<cr>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "gt", ":BufferLineCycleNext<cr>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "gT", ":BufferLineCyclePrev<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gt", ":bprev<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gT", ":bnext<cr>", { noremap = true, silent = true })

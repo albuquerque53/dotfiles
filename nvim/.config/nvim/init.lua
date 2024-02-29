@@ -22,7 +22,6 @@ Plug('nvim-telescope/telescope-file-browser.nvim')
 Plug('nvim-treesitter/nvim-treesitter')
 
 Plug('nvim-tree/nvim-web-devicons')
-Plug('akinsho/bufferline.nvim', { tag = '*' })
 Plug('nvim-lualine/lualine.nvim')
 Plug('m4xshen/autoclose.nvim')
 

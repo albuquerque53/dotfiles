@@ -32,6 +32,10 @@ Plug('akinsho/git-conflict.nvim')
 Plug('koenverburg/peepsight.nvim')
 Plug('ggandor/leap.nvim')
 
+Plug('MunifTanjim/nui.nvim')
+Plug('rcarriga/nvim-notify')
+Plug('folke/noice.nvim')
+
 vim.call('plug#end')
 
 -- Editor

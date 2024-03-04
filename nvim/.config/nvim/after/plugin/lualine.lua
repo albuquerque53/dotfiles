@@ -8,7 +8,9 @@ require('lualine').setup {
     theme = 'iceberg',
   },
   sections = {
-    lualine_a = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {
       {
         'buffers',
       }

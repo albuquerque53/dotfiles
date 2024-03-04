@@ -17,7 +17,7 @@ Plug('catppuccin/nvim', { as = 'catppuccin' })
 
 Plug('jwalton512/vim-blade')
 Plug('nvim-lua/plenary.nvim')
-Plug('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
+Plug('nvim-telescope/telescope.nvim')
 Plug('nvim-telescope/telescope-file-browser.nvim')
 Plug('nvim-treesitter/nvim-treesitter')
 
@@ -31,10 +31,6 @@ Plug('lewis6991/gitsigns.nvim')
 Plug('akinsho/git-conflict.nvim')
 Plug('koenverburg/peepsight.nvim')
 Plug('ggandor/leap.nvim')
-
-Plug('MunifTanjim/nui.nvim')
-Plug('rcarriga/nvim-notify')
-Plug('folke/noice.nvim')
 
 vim.call('plug#end')
 

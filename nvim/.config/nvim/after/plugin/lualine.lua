@@ -12,12 +12,7 @@ require('lualine').setup {
     lualine_b = {},
     lualine_c = {
       {
-        'buffers',
-        symbols = {
-            modified = ' ●',
-            alternate_file = '*',
-            directory =  ''
-        },
+        'buffers'
       }
     }
   }

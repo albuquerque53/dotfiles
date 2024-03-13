@@ -29,7 +29,8 @@ Plug('startup-nvim/startup.nvim')
 
 Plug('lewis6991/gitsigns.nvim')
 Plug('akinsho/git-conflict.nvim')
-Plug('koenverburg/peepsight.nvim')
+Plug('tpope/vim-fugitive')
+
 Plug('ggandor/leap.nvim')
 
 vim.call('plug#end')

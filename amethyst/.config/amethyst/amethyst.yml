@@ -72,7 +72,7 @@ shrink-main:
 
 # Expand the main pane by a percentage of the screen dimension as defined by window-resize-step. Note that not all layouts respond to this command.
 expand-main:
-  mod: mod1
+  mod: mod2
   key: l
 
 # Increase the number of windows in the main pane. Note that not all layouts respond to this command.
@@ -133,9 +133,9 @@ swap-screen-ccw:
   key: h
 
 # Move the currently focused window onto the next screen in the list going clockwise.
-swap-screen-cw:
-  mod: mod2
-  key: l
+# swap-screen-cw:
+#   mod: mod2
+#   key: l
 
 # Swap the position of the currently focused window with the next window in the list going counter-clockwise.
 swap-ccw:

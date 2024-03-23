@@ -33,6 +33,8 @@ Plug('tpope/vim-fugitive')
 
 Plug('ggandor/leap.nvim')
 
+Plug('iamcco/markdown-preview.nvim')
+
 vim.call('plug#end')
 
 -- Editor

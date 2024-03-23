@@ -8,13 +8,13 @@ import = [
 size = 17.0
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 1.0
+opacity = 0.9
 blur = false
 
 [window.padding]

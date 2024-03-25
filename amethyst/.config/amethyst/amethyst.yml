@@ -169,7 +169,7 @@ swap-main:
 
 # Select tall layout
 select-tall-layout:
-  mod: mod2
+  mod: mod1
   key: a
 
 # Select wide layout
@@ -197,9 +197,9 @@ throw-space-right:
   key: right
 
 # Toggle the floating state of the currently focused window; i.e., if it was floating make it tiled and if it was tiled make it floating.
-toggle-float:
-  mod: mod2
-  key: t
+# toggle-float:
+#   mod: mod1
+#   key: t
 
 # Display the layout HUD with the current layout on each screen.
 display-current-layout:
@@ -207,9 +207,9 @@ display-current-layout:
   key: i
 
 # Turn on or off tiling entirely.
-# toggle-tiling:
-#   mod: mod1
-#   key: t
+toggle-tiling:
+  mod: mod1
+  key: t
 
 # Rerun the current layout's algorithm.
 reevaluate-windows:
@@ -224,7 +224,7 @@ toggle-focus-follows-mouse:
 # Automatically quit and reopen Amethyst.
 relaunch-amethyst:
   mod: mod2
-  key: r
+  key: z
 
 # disable screen padding on builtin display
 disable-padding-on-builtin-display: false

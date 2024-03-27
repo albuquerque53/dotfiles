@@ -1,3 +1,5 @@
 {
-    "emmet.includeLanguages": {"blade": "html"}
+    "emmet.includeLanguages": {"blade": "html"},
+    "tailwindCSS.headwind.runOnSave": false,
+    "blade.bladeFormatter.optSortTailwindcssClasses": false
 }

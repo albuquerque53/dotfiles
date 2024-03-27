@@ -8,3 +8,9 @@ require('git-conflict').setup({
     current = 'DiffText',
   }
 })
+
+vim.api.nvim_set_keymap("n", "gnc", ":GitConflictNextConflict<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gpc", ":GitConflictPrevConflict<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gcc", ":GitConflictChooseBase<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gci", ":GitConflictChooseTheirs<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gcb", ":GitConflictChooseBoth<cr>", { noremap = true, silent = true })
